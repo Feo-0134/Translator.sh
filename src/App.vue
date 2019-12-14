@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <v-app-bar
       app
       color="primary"
@@ -12,10 +12,10 @@
           contain
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
           transition="scale-transition"
-          width="40"
+          width="30"
         />
 
-      <h1>Transfer.sh</h1>
+      <h3>Transfer.sh</h3>
       </div>
 
       <v-spacer></v-spacer>
@@ -23,22 +23,22 @@
         <span class="white--text headline">JZ</span>
       </v-avatar>
     </v-app-bar>
-
+    
     <v-content>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+// import Leonard from './components/Leonard';
 
 export default {
   name: 'App',
 
-  components: {
-    HelloWorld,
-  },
+  // components: {
+  //   Leonard,
+  // },
 
   data: () => ({
     //

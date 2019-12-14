@@ -32,7 +32,7 @@
             src="https://cn.bing.com/th?id=OIP.Bt4KEQtVi8CJXBHbOupOMAHaEK&pid=Api&rs=1"
           ></v-img>
         </v-col>
-        <v-col
+        <!-- <v-col
           cols="auto"
           class="text-center pl-0">
           <v-row
@@ -57,7 +57,7 @@
               </v-btn>
             </v-col>
           </v-row>
-        </v-col>
+        </v-col> -->
         <video  
           id="myVideo" 
           class="video-js" 
